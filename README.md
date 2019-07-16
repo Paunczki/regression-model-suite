@@ -1,4 +1,4 @@
-# regression-model-suite
+# Regression Model Suite
 The goal of this project is to accumulate the code needed to build, compare, and select regression models in both R and Python. Such code may include but is not limited to code for:
 - Simple Linear regression models
 - Multiple regression models
