@@ -11,6 +11,7 @@ Ideally, the files in the repository should work towards a general goal while in
 It is also preferred that any files have two editions: one in context of data, and one without. In some cases people may find code out of context easier to read and apply to other projects. In other cases, code in context can be useful for learning what the code does through working examples. Both of these targets, learning the code and applying the code, are important to this project and neither should be ignored. 
 
 If a file is created in the context of data, please remember to also upload and cite the data.
+For files out of context, please add "-basic" to the end of the file name.
 
 # Contributors
 - Ashton Hansen
