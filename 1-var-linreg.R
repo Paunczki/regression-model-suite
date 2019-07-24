@@ -6,7 +6,7 @@ df1 <- read.csv("C:/Users/Ashton Hansen/Documents/GitHub/regression-model-suite/
 ## SIMPLE LINEAR REGRESSION ##
 ##############################
 
-# The model will be:
+# The model (MODEL A) will be:
 # <age> = Beta0 + Beta1<victim count> + Error
 
 fit1 <- lm(Age ~ Victim.Count, data= df1)
@@ -24,7 +24,7 @@ plot(fit1)
 ## SIMPLE LINEAR REGRESSION W/ INDICATOR VARIABLE ##
 ####################################################
 
-# The model will be:
+# The model (MODEL B) will be:
 # <age> = B0 + Bi<method> + E
 plot(Age ~ Method, data= df1,
      main= "Method of Execution vs Age",
