@@ -15,3 +15,4 @@ For files out of context, please add "-basic" to the end of the file name.
 
 # Contributors
 - Ashton Hansen
+- John Mikos
