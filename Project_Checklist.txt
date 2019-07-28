@@ -12,7 +12,7 @@ Available Topics:
 
 Topics in Progress:
 - Basic R syntax
-
+- Model Selection
 
 Completed Topics:
 - Single Predictor Linear Regression
