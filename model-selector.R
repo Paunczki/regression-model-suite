@@ -18,6 +18,23 @@ library("car")
 fit1 <- lm(Y ~., data= FiveVar) # 'Y~.' builds a model using all other variables (interaction terms excluded)
 summary(fit1)
 Anova(fit1, type= "III") # Use Anova() from the 'car' package to use type III sums of squares
+# According to the ANOVA tabel (and model summary), X1 and X2 are significant at the 10% significance level
+# while X3, X4, and X5 are insignificant. Let's make a function to tell us the model without needing
+# to rewrite all this code
+
+## FUNCTION NOT COMPLETE ##
+modelp <- function(DATA, ALPHA, Y) { 
+  model <- lm(Y ~ ., data= DATA)
+  anova <- Anova(model, type= "III")
+  F_values <- anova$`Pr(>F)`
+  if (F_values <= ALPHA) {
+    new_model <- summary$coefficients
+  } else {
+      print(0)
+  }
+  print(new_model)
+}
+## FUNCTION NOT COMPLETE ##
 
 #######################################
 ## Manual Selection, R^2 value based ##
