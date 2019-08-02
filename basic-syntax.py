@@ -16,13 +16,13 @@
 # Python can perform a wide range of mathematical computations. For example, try running these:
 
 # Example 1:
-2+3
+2 + 3
 
 # Example 2:
-2-3
+2 - 3
 
 # Example 3:
-2 * 3
+2*3
 
 # Example 4:
 6/3
@@ -77,7 +77,11 @@ Self_Worth = Assets + Happiness_Value
 # depend on others, and can be easily adjusted if the value of a variable needs to be changed.
 # Using variables is a lot easier than writing:
 
-Self_Worth = 1525.75 + 10000.00 + ((10000.00**4)/(45*10000.00)) + 4*((10000.00**4)/(45*10000.00)) - 600.00
+Self_Worth = (1525.75 + 10000.00 
+              + ((10000.00**4)/(45*10000.00)) 
+              + 4*((10000.00**4)/(45*10000.00)) 
+              - 600.00)
+
 
 ###############
 ## OPERATORS ##
@@ -88,7 +92,7 @@ Self_Worth = 1525.75 + 10000.00 + ((10000.00**4)/(45*10000.00)) + 4*((10000.00**
 # * Multiplication
 # / Division
 
-# For comparisons (T/F)
+# For comparisons
 # == Equals
 # > greater than
 # < less than
