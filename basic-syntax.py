@@ -1,6 +1,7 @@
 # This is a file to serve as a tutorial about how to 
 # make comments, use operators, and create functions in Python
 
+
 # To start, we can already see that the hashtag (#) is used to designate a line of code
 # as a comment. Commenting can be used to describe what a section of code is supposed to do,
 # as well as to prevent a section of code from being run (Python ignores comments when compiling).
@@ -67,9 +68,9 @@ Assets = Assets - Furniture
 
 
 # In the future where sticks have value as a function of cash:
-Stick = (Cash**4)/(45*Cash)
-Assets = Stick + Cash + Computer    # Still haven't found that chair
-Happiness_Value = 4*Stick - Furniture
+Sticks = (Cash**4)/(45*Cash)
+Assets = Sticks + Cash + Computer    # Still haven't found that chair
+Happiness_Value = 4*Sticks - Furniture
 Self_Worth = Assets + Happiness_Value
 
 # As we can see, creating variables helps us keep track of what certain numbers are, are useful when some values
@@ -95,7 +96,30 @@ Self_Worth = 1525.75 + 10000.00 + ((10000.00**4)/(45*10000.00)) + 4*((10000.00**
 # <= less than or equal to
 # != NOT equal to
 
+#################################
+## WRITING FUNCTIONS IN PYTHON ##
+#################################
+# Functions follow this general format:
+def FunctionName(): # 'def' stands for define, as you're defining a function
+    """
+    In this area, you would usually write the code
+    saying what you want the function to do.
+    """
 
+# An example of a function would be this:
+def hello():
+    print("Hello world")
+
+# and to execute this function we would do this:
+hello()
+
+# Not all functions will look like this and will become more complex as you
+# learn how to apply functions.
+
+# Before doing too much with functions and developing programs,
+# you should check out this link with informaiton on writing your code
+# to be more readable:
+# https://www.python.org/dev/peps/pep-0008/
 
 
 
